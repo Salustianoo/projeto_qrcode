@@ -38,6 +38,7 @@ class Ui_Estudo(object):
             "type": "video",
             "maxResults": 11,
             "key": ':D'
+            
         }
 
         resposta=requests.get(f"https://www.googleapis.com/youtube/v3/search",params=parametros).json()
